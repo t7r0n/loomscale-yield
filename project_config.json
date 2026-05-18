@@ -1,0 +1,32 @@
+{
+  "repo": "biofabric-yield-twin-local",
+  "package": "biofabric_yield_twin_local",
+  "cli": "biofabric-twin",
+  "company": "Bolt Threads",
+  "title": "Biofabric Yield Twin Local",
+  "tagline": "Offline fermentation and mycelium-material batch-yield simulator for biofabricated materials.",
+  "problem": "Bio-material commercialization fails at scale-up unless batch variability, yield, and material properties are tied together.",
+  "project": "silkloop",
+  "plan_slug": "bolt-threads",
+  "scenario": "biofabric batch",
+  "fixture_count": 150,
+  "clean_count": 40,
+  "metrics": [
+    "yield_prediction",
+    "property_window_hit",
+    "scaleup_risk",
+    "waste_reduction"
+  ],
+  "failure_modes": [
+    "contamination_signal",
+    "tensile_miss",
+    "substrate_variance",
+    "drying_curve_drift"
+  ],
+  "wow": "A batch twin explains why a beautiful lab sample will miss tensile targets at pilot scale.",
+  "sources": [
+    "https://boltthreads.com/technology/mylo",
+    "https://cfda.com/resources/materials-hub/materials-index/bolt-threads/",
+    "https://www.gearpatrol.com/tech/a446046/bolt-threads-mylo-leather/"
+  ]
+}
